@@ -5,7 +5,6 @@
 Este é um código simples HTML com CSS e JS que demonstra as propriedades principais de fetch.
 
 ### fetch
-
 Fetch é uma função assíncrona que chama uma API e retorna o que a API retorna.
 
 fetch ("url da api")
@@ -21,15 +20,25 @@ Depois, utilizamos o método catch{}, para qual a execução será direcionada s
 Podemos também garantir uma execução final independente de erros com finally{}, que sempre executará após try e catch.
 
 async function() {
+
   try {
+  
     await fetch(url)
+    
   }
+  
   catch {
+  
     alert("erro")
+    
   }
+  
   finally {
+  
     console.log("Fim")
+    
   }
+  
 }
 
 ## Linguagem
