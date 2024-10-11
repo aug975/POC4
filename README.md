@@ -19,27 +19,17 @@ Para garantir que erros no chamado serão detectados, utilizamos o método try{}
 Depois, utilizamos o método catch{}, para qual a execução será direcionada se houver algum erro durante execução dos conteúdos de try.
 Podemos também garantir uma execução final independente de erros com finally{}, que sempre executará após try e catch.
 
-async function() {
-
-  try {
-  
-    await fetch(url)
-    
-  }
-  
-  catch {
-  
-    alert("erro")
-    
-  }
-  
-  finally {
-  
-    console.log("Fim")
-    
-  }
-  
-}
+    async function() {
+      try {
+        await fetch(url)
+      }
+      catch {
+        alert("erro")
+      }
+      finally {
+        console.log("Fim")
+      }
+    }
 
 ## Linguagem
 Este projeto utiliza um arquivo em HTML (index.html), um arquivo em CSS (style.css) e um arquivo em JavaScript (script.js). No repositório está também este arquivo explicativo em Markdown (README.md).
