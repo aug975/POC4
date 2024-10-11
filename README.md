@@ -11,9 +11,9 @@ fetch ("url da api")
 
 Utilizado dentro de uma função, a função será assíncrona (async) e a chamada do método terá uma espera (await).
 
-async function() {
-  await fetch(url)
-}
+    async function() {
+      await fetch(url)
+    }
 
 Para garantir que erros no chamado serão detectados, utilizamos o método try{}, dentro do qual colocamos o código principal, incluindo o fetch.
 Depois, utilizamos o método catch{}, para qual a execução será direcionada se houver algum erro durante execução dos conteúdos de try.
