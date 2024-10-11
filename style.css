@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(183, 231, 231);
+}
+
+h1, h3, p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#warning {
+    display:none;
+    color: red;
+}
+
+.topbar {
+    background-color: #53a19e;
+    overflow: hidden;
+}
+
+.topbar button {
+    float: left;
+    color: #5f5858;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#statusbutton {
+    background-color: #d6c3c3;
+}
+
+.topbar button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topbar button.active {
+    background-color: #21b5c9;
+    color: white;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#status {
+    padding-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#goodstatus {
+    padding: 10px;
+    background-color: chartreuse;
+    border-style: dashed;
+}
+
+#badstatus {
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    border-style: dashed;
+}
+
+img {
+    border-style: ridge;
+    max-width: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}

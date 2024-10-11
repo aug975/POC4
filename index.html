@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Imagens de Animais</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1>Imagens de Animais</h1>
+	<div class="topbar">
+    <button id="homebutton" class="active" onclick=toHome()>Home</button>
+		<button id="dogbutton" onclick=toDog()>Cachorros</button>
+		<button id="catbutton" onclick=toCat()>Gatos</button>
+		<button id="foxbutton" onclick=toFox()>Raposas</button>
+		<button id="statusbutton" onclick=toStatus()>Status</button>
+  </div>
+	<h3 id="intro">Bem-vindo ao meu site de imagens! Aqui temos imagens de cachorros, gatos, e raposas!</h3>
+	<h3 id="warning">Aguarde o fim do carregamento para mudar de página!</h3>
+	<section id="images"></section>
+	<section id="status"></section>
+	<script src="script.js"></script>
+</body>
+
+</html>
